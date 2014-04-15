@@ -2,6 +2,12 @@ About
 -----
 This is a demo on a To-do list with MongoDB, ExpressJS, AngularJS, and Node (MEAN Stack).
 
+Running
+
+.. code:: bash
+
+  $ npm install
+  $ node server.js
 
 Mongo install on Ubuntu
 
