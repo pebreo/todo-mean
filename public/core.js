@@ -3,7 +3,7 @@
 // public/core.js
 var scotchTodo = angular.module('scotchTodo', []);
 
-function mainController($scope, $http) {
+scotchTodo.controller('mainController', function($scope, $http) {
     $scope.formData = {};
 
     // when landing on the page, get all todos and show them
@@ -41,7 +41,7 @@ function mainController($scope, $http) {
             });
     };
 
-}
+});
 
 
 
