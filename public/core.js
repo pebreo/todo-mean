@@ -1,7 +1,7 @@
 
 
 // public/core.js
-var scotchTodo = angular.module('scotchTodo', []);
+var scotchTodo = angular.module('scotchTodo', ['ngTable']);
 
 scotchTodo.controller('mainController', function($scope, $http) {
     $scope.formData = {};
