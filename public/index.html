@@ -30,7 +30,7 @@
 <!-- SET THE CONTROLLER AND GET ALL TODOS -->
 <body ng-controller="mainController">
     <div class="container">
-
+        
         <!-- HEADER AND TODO COUNT -->
         <div class="jumbotron text-center">
             <h1>I'm a Todo-aholic <span class="label label-info">{{ todos.length }}</span></h1>
@@ -66,7 +66,19 @@
             </div>
         </div>
 
+<div class="col-lg-6" ng-controller="DemoCtrl">
+             <table ng-table class="table">
+    <tr ng-repeat="user in users">
+        <td data-title="'Name'">{{user.name}}</td>
+        <td data-title="'Age'">{{user.age}}</td>
+    </tr>
+    </table>
+    
+   </div>
+
     </div>
+    
+    
 
 </body>
 </html>
